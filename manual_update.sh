@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo chmod a-x /usr/lib/ubuntu-advantage/apt-esm-json-hook
+sudo pro disable esm-apps
 sudo apt -y update
 sudo apt upgrade
 sudo apt -y autoremove
